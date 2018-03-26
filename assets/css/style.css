@@ -1,0 +1,29 @@
+body {
+    background-color: lightblue;
+    width: 960px;
+    margin: auto;
+}
+
+#page {
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+#greeting {
+    border: 1px solid black;
+    visibility: hidden;
+}
+
+/* blink text */
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }

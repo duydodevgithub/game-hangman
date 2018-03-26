@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+    <!-- css file -->
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>HangMan game</title>
+</head>
+<body>
+    <div id="page">
+        <header>
+            <h1>HangMan Game</h1>
+        </header>
+        <div id="greeting">
+            <h2 class="blink_me">Press any key to get started!</h2>
+        </div>
+        <div id="game_content">
+            <!-- current word -->
+            <p>WINS: <span id="winCounter"></span></p>
+            <p>LOSS: <span id="lossCounter"></span></p>
+            <section id="current_word">
+                <h3>CURRENT WORD</h3>
+                <p id="words"></p>
+            </section>
+            <!-- number of guesses remaining -->
+            <section id="number_guesses">
+                <h3>NUMBER OF GUESSES REMAINING </h3>
+                <p><span id="numGuesses"></span></p>
+            </section>
+            <!-- letters already guesses -->
+            <section id="letter_guesses">
+                <h3>LETTERS ALREADY GUESSED</h3>
+                <p><span id="wrongGuesses"></span></p>
+            </section>
+        </div>
+    </div>
+    
+    <!-- main js file -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
